@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-- Researcher at [TU Berlin](https://www.tu-berlin.de/)
+- Research Scientist at [TU Berlin](https://www.tu-berlin.de/)
 - Ph.D. Candidate in Artificial Intelligence
 - Department of Electrical Engineering and Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/)
 - Advised by Prof. [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
