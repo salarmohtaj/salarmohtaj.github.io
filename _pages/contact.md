@@ -4,8 +4,8 @@ title: "Contact"
 excerpt: "Contact"
 author_profile: true
 redirect_from: 
-  - /contact
-  - /contact.html
+ # - /contact
+ # - /contact.html
 ---
 
 - Research Scientist at [TU Berlin](https://www.tu-berlin.de/)
