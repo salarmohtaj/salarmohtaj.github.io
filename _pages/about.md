@@ -22,4 +22,4 @@ I received my Bachelor’s Degree in [Shahrood University of Technology](http://
 
 News
 ======
-We have attended CLEF 2019 fact check shared task. 
+- We have attended CLEF 2019 fact check shared task. 
