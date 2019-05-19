@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 - Research Scientist at [TU Berlin](https://www.tu-berlin.de/)
-- Ph.D. Candidate in Computer Science
+- Ph.D. candidate in Computer Science
 - Department of Electrical Engineering and Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/)
 - Advised by Prof. [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
