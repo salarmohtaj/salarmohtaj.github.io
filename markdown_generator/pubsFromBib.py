@@ -102,8 +102,14 @@ for pubsource in publist:
             for author in bibdata.entries[bib_id].persons["author"]:
                 #citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #citation = citation + " " + str(str(author).split(',')[1]).lstrip().rstrip() + " " + str(str(author).split(',')[0]).lstrip().rstrip()+ ", "
-                citation = citation + str(str(author).split(',')[1]).lstrip().rstrip() + " " + str(
-                    str(author).split(',')[0]).lstrip().rstrip() + ", "
+                authorname = str(str(author).split(',')[1]).lstrip().rstrip() + " " + str(
+                    str(author).split(',')[0]).lstrip().rstrip()
+                #if authorname == 'Salar Mohtaj':
+                #    authorname = '**'+ authorname +'**'
+                if 'stian' in authorname:
+                    print(authorname)
+                citation = citation + authorname + ", "
+
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
