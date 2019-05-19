@@ -9,4 +9,4 @@ redirect_from:
 ---
 Quality and Usability Lab, TU Berlin <br/>
 Sekr. TEL 18, TU-Hochhaus, Ernst-Reuter-Platz 7, 10587 Berlin <br/>
-Email: salar.mohtaj [at] tu-berlin.de
+:email:   Email: salar.mohtaj [at] tu-berlin.de
