@@ -39,15 +39,12 @@
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
 
-
-
-
-      <li>
       {% if author.googlescholar %}
-        <a href="{{ author.googlescholar }}" style="display: inline"><i class="fas fa-3x fa-graduation-cap"></i> </a>
+        <li><a href="{{ author.googlescholar }}"><i class="fas fa-lg fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
+
        {% if author.researchgate %}
-        <a href="{{ author.researchgate }}" style="display: inline"><i class="fab fa-3x fa-researchgate" aria-hidden="true"></i> </a>
+        <li><a href="{{ author.researchgate }}"><i class="fab fa-lg fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
 
       {% if author.facebook %}
@@ -57,14 +54,8 @@
         <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fab fa-google-plus" aria-hidden="true"></i> Google+</a></li>
       {% endif %}
       {% if author.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" style="display: inline"><i class="fab fa-3x fa-linkedin" aria-hidden="true"></i> </a>
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-lg fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
-      </li>
-
-
-
-
-
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-xing-square" aria-hidden="true"></i> XING</a></li>
       {% endif %}
