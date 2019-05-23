@@ -11,6 +11,9 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  [{{ forloop.index }}]
-  {% include archive-single.html %}
+{% capture counter %}
+{{ forloop.index }} 
+{% endcapture %}
+
+  {% include archive-single.html counter=forloop.index %}
 {% endfor %}
