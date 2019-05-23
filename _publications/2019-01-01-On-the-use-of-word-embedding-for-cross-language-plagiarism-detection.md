@@ -1,5 +1,5 @@
 ---
-title: "On the use of word embedding for cross language plagiarism detection"
+title: "On the Use of Word Embedding for Cross Language Plagiarism Detection"
 collection: publications
 permalink: /publication/2019-01-01-On-the-use-of-word-embedding-for-cross-language-plagiarism-detection
 date: 2019-01-01
