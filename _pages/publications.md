@@ -11,7 +11,6 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  salar
-  {% forloop.counter %}
+  {{ forloop.index }}
   {% include archive-single.html %}
 {% endfor %}
