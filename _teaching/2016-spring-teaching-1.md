@@ -8,7 +8,9 @@ date: 2016-01-01
 location: "Tehran, Iran"
 ---
 
-Course description
+
+
+Spring 2016
 ======
 
 Data Mining studies algorithms and computational paradigms that allow computers to find patterns and regularities in databases, 
