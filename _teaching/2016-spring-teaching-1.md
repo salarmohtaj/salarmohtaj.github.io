@@ -10,7 +10,7 @@ location: "Tehran, Iran"
 
 
 
-## Spring 2016
+### Spring 2016
 
 Data Mining studies algorithms and computational paradigms that allow computers to find patterns and regularities in databases, 
 perform prediction and forecasting, and generally improve their performance through interaction with data. 
