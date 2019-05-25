@@ -8,6 +8,9 @@ date: 2016-01-01
 location: "Tehran, Iran"
 ---
 
+Course description
+======
+
 Data Mining studies algorithms and computational paradigms that allow computers to find patterns and regularities in databases, 
 perform prediction and forecasting, and generally improve their performance through interaction with data. 
 It is currently regarded as the key element of a more general process called Knowledge Discovery that deals with extracting useful knowledge from raw data. 
@@ -17,11 +20,3 @@ The course will cover all these issues and will illustrate the whole process by 
 Special emphasis will be give to the Machine Learning methods as they provide the real knowledge discovery tools. 
 Important related technologies, as data warehousing and on-line analytical processing (OLAP) will be also discussed. 
 The students will use recent Data Mining software.
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
