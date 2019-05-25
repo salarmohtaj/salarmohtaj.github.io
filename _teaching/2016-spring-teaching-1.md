@@ -1,5 +1,5 @@
 ---
-title: "Foundations of Data Mining"
+title: "Data Mining"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2016-spring-teaching-1
