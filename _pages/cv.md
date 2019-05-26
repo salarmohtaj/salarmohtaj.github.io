@@ -20,15 +20,14 @@ Education
 * M.S. in Information Technology engineering, [Amirkabir University of Technology](http://aut.ac.ir/aut/), 2014
 * Ph.D in Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/), 2023 (expected)
 
-Work experience
+Work Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2010: Internship
+  * Tehran University of Art
+  * Duties included: Network technical support
 
-* Fall 2015: Research Assistant
-  * Github University
+* Sring 2014 - Winter 2019: Research Assistant
+  * [Research Institute for Information and Communication Technology](http://www.ictrc.ac.ir/EN/Home)
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
   
