@@ -40,13 +40,14 @@ Work Experience
 
 Skills
 ======
+* Programming
+  * Python
+  * Java
 * Machine Learning
-  * Spacy
-  * NLTK
+  * scikit-learn
 * Natural Language Processing
   * Spacy
   * NLTK
-  * Sub-skill 2.3
 * Skill 3
 
 
