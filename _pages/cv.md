@@ -13,6 +13,7 @@ redirect_from:
 [//]: # [Please click to download my Curriculum Vitae [PDF]](https://salarmohtaj.github.io/files/paper1.pdf)
 
 
+<br/><br/>
 
 Education
 ======
@@ -38,6 +39,10 @@ Work Experience
   * Duties included: member of NLP group, senoir researcher
   * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
+
+
+<br/><br/>
+
 Skills
 ======
 * Skill 1
@@ -46,6 +51,10 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+
+
+
+<br/><br/>
 
 Publications
 ======
@@ -61,6 +70,8 @@ Publications
 {% endfor %}</ul>
 {% endcomment %}
   
+<br/><br/>
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
