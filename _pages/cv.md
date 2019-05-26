@@ -57,8 +57,10 @@ Publications
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed limit:1%}
+  <ul>{% for post in site.teaching reversed %}
+  {% if forloop.first %}
     {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
   
 [//]: # Service and leadership
