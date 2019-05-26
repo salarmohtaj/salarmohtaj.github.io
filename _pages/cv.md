@@ -17,8 +17,8 @@ redirect_from:
 Education
 ======
 * B.S. in Information Technology, [Shahrood University of Technology](http://shahroodut.ac.ir/en/) , 2011
-* M.S. in Information Technology Engineering, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Information Technology engineering, [Amirkabir University of Technology](http://aut.ac.ir/aut/), 2014
+* Ph.D in Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/), 2023 (expected)
 
 Work experience
 ======
