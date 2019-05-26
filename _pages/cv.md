@@ -10,4 +10,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Please click to download my Curriculum Vitae [PDF]](https://salarmohtaj.github.io/files/paper1.pdf)
+[//]: # [Please click to download my Curriculum Vitae [PDF]](https://salarmohtaj.github.io/files/paper1.pdf)
