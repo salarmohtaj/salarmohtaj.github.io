@@ -28,9 +28,13 @@ Work Experience
 
 * Sring 2014 - Winter 2019: Research Assistant
   * [Research Institute for Information and Communication Technology](http://www.ictrc.ac.ir/EN/Home)
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Duties included: member of NLP group, technical manager
   
+* Winter 2019 - NOW: Research Assistant
+  * [Quality and Usability Lab](https://www.qu.tu-berlin.de/menue/qu/)
+  * Duties included: member of NLP group, senoir researcher
+  * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
+
 Skills
 ======
 * Skill 1
