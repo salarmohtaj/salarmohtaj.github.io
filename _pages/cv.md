@@ -20,6 +20,9 @@ Education
 * M.S. in Information Technology engineering, [Amirkabir University of Technology](http://aut.ac.ir/aut/), 2014
 * Ph.D in Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/), 2023 (expected)
 
+
+<br/><br/>
+
 Work Experience
 ======
 * Summer 2010: Internship
