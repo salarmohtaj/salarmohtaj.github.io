@@ -43,12 +43,12 @@ Skills
 * Programming
   * Python
   * Java
-* Machine Learning
-  * scikit-learn
 * Natural Language Processing
   * Spacy
   * NLTK
-
+* Machine Learning
+  * scikit-learn
+K
 
 Publications
 ======
