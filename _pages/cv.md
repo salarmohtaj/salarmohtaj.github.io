@@ -22,8 +22,6 @@ Education
 * Ph.D in Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/), 2023 (expected)
 
 
-<br/><br/>
-
 Work Experience
 ======
 * Summer 2010: Internship
@@ -40,21 +38,17 @@ Work Experience
   * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
 
-
-<br/><br/>
-
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
+* Machine Learning
+  * Spacy
+  * NLTK
+* Natural Language Processing
+  * Spacy
+  * NLTK
   * Sub-skill 2.3
 * Skill 3
 
-
-
-<br/><br/>
 
 Publications
 ======
@@ -69,8 +63,7 @@ Publications
 {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 {% endcomment %}
-  
-<br/><br/>
+
 
 Teaching
 ======
