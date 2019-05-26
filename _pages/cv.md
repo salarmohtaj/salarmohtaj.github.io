@@ -57,7 +57,7 @@ Publications
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed limit:1 %}
+  <ul>{% for post in site.teaching limit:1 reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
