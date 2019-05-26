@@ -48,7 +48,6 @@ Skills
 * Natural Language Processing
   * Spacy
   * NLTK
-* Skill 3
 
 
 Publications
