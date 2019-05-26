@@ -22,8 +22,8 @@ redirect_from:
 * Ph.D in Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/), 2023 (expected)
 
 
-Work Experience
-======
+## Work Experience
+
 * Summer 2010: Internship
   * Tehran University of Art
   * Duties included: Network technical support
@@ -38,8 +38,8 @@ Work Experience
   * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
 
-Skills
-======
+## Skills
+
 * Programming
   * Python
   * Java
@@ -50,8 +50,8 @@ Skills
   * scikit-learn
 
 
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -65,8 +65,8 @@ Publications
 {% endcomment %}
 
 
-Teaching
-======
+## Teaching
+
   <ul>{% for post in site.teaching reversed %}
   {% if forloop.first %}
     {% include archive-single-cv.html %}
