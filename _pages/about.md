@@ -22,4 +22,6 @@ I received my Bachelor’s Degree in [Shahrood University of Technology](http://
 
 News
 ======
+- Our paper is accepted to present on [CLEF 2019](http://clef2019.clef-initiative.eu/). CLEF is stand for Conference and Labs of the Evaluation Forum. We will present our approach for check-worthiness on CheckThat! Lab (title: The TU-Berlin Team Participation in the Check-Worthiness Task of the CLEF-2019 CheckThat! Lab). 
+- I've attended [QoMEX 2019](https://www.qomex2019.de/). We present our paper titled: "Automated Text Readability Assessment for German Language: A Quality of Experience Approach".
 - We have attended CLEF 2019 fact check shared task. 
