@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-- Research Scientist at [TU Berlin](https://www.tu-berlin.de/)
-- Ph.D. candidate in Computer Science
+- Research Scientist at German Research Center for Artificial Intelligence [DFKI](https://www.dfki.de/web/)
+- Ph.D. candidate in Computer Science at [TU Berlin](https://www.tu-berlin.de/)
 - Department of Electrical Engineering and Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/)
 - Advised by Prof. [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
