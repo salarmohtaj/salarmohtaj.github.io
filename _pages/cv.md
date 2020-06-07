@@ -17,25 +17,32 @@ redirect_from:
 
 ## Education
 
-* B.S. in Information Technology, [Shahrood University of Technology](http://shahroodut.ac.ir/en/) , 2011
-* M.S. in Information Technology engineering, [Amirkabir University of Technology](http://aut.ac.ir/aut/), 2014
 * Ph.D in Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/), 2023 (expected)
+* M.S. in Information Technology engineering, [Amirkabir University of Technology](http://aut.ac.ir/aut/), 2014
+* B.S. in Information Technology, [Shahrood University of Technology](http://shahroodut.ac.ir/en/) , 2011
 
 
 ## Work Experience
 
-* Summer 2010: Internship
-  * Tehran University of Art
-  * Duties included: Network technical support
+* December 2019 - NOW: Research Assistant
+  * [German Research Center for Artificial Intelligence](https://www.dfki.de/web/)
+  * Speech and Language Technology [(SLT)](https://www.dfki.de/web/forschung/forschungsbereiche/speech-and-language-technology/) group
+  * Duties included: Senoir machine learning and NLP researcher
+  * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
+  
+ * March 2019 - November 2019: Research Assistant
+  * [Quality and Usability Lab](https://www.qu.tu-berlin.de/menue/qu/parameter/en/)
+  * Duties included: member of NLP group, senoir researcher
+  * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
-* Sring 2014 - Winter 2019: Research Assistant
+
+* April 2014 - February 2019: Research Assistant
   * [Research Institute for Information and Communication Technology](http://www.ictrc.ac.ir/EN/Home)
   * Duties included: member of NLP group, technical manager
   
-* Winter 2019 - NOW: Research Assistant
-  * [Quality and Usability Lab](https://www.qu.tu-berlin.de/menue/qu/)
-  * Duties included: member of NLP group, senoir researcher
-  * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
+* Summer 2010: Internship
+  * Tehran University of Art
+  * Duties included: Network technical support
 
 
 ## Skills
