@@ -25,7 +25,7 @@ redirect_from:
 ## Work Experience
 
 * December 2019 - NOW: Research Assistant
-  * [German Research Center for Artificial Intelligence](https://www.dfki.de/web/)
+  * German Research Center for Artificial Intelligence [DFKI](https://www.dfki.de/web/)
   * Speech and Language Technology [(SLT)](https://www.dfki.de/web/forschung/forschungsbereiche/speech-and-language-technology/) group
   * Duties included: Senoir machine learning and NLP researcher
   * Supervisor: Professor [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
