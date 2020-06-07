@@ -9,8 +9,7 @@ redirect_from:
 ---
 
 - Research Scientist at German Research Center for Artificial Intelligence ([DFKI])(https://www.dfki.de/web/), Department of Speech and Language Technology ([SLT])(https://www.dfki.de/web/forschung/forschungsbereiche/speech-and-language-technology/)
-- Ph.D. candidate in Computer Science at [TU Berlin](https://www.tu-berlin.de/)
-- Department of Electrical Engineering and Computer Science, [Technische Universität Berlin](https://www.tu-berlin.de/)
+- Ph.D. candidate in Computer Science at [Technische Universität Berlin](https://www.tu-berlin.de/), [Department of Electrical Engineering and Computer Science](https://www.eecs.tu-berlin.de/menue/fakultaet_iv/parameter/en)
 - Advised by Prof. [Sebastian Möller](https://www.qu.tu-berlin.de/menue/team/professur/)
 
 
