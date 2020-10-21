@@ -54,6 +54,7 @@ redirect_from:
   * Spacy
   * NLTK
 * Machine Learning
+  * Pytorch
   * scikit-learn
 
 
