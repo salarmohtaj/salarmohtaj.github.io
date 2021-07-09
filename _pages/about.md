@@ -21,6 +21,7 @@ I received my Bachelor’s Degree in [Shahrood University of Technology](http://
 
 News
 ======
+- **[May 2021]** My [online course on Natural Language Processing](https://ki-campus.org/node/487) will be launched in summer on the learning platform for artificial intelligence [KI-Campus](https://ki-campus.org/).
 - **[September 2020]** Our paper titled [A crowdsourcing approach to construct mono-lingual plagiarism detection corpus](https://link.springer.com/article/10.1007/s00799-020-00294-4) is published on the [International Journal on Digital Libraries](https://www.springer.com/journal/799).
 - **[July 2020]** My proposal on Investigating Language Structure in Fake and Authentic Stories has been accepted as [Software Campus ](https://softwarecampus.de/) project. It would be a joined project between the [DFKI](https://www.dfki.de/web/) as the research partner and the [ZEIT DE](https://www.zeit.de/index) as the industry partner. The ZEIT.DE is a member of the [Holtzbrinck](https://www.holtzbrinck.com/) publishing group which is one of the leading publishing groups in Germany with more than 2 million readers per week and 12 million users. [Here](https://softwarecampus.de/en/participant/2020/salar-mohtaj/) is some information about the project.  
 - **[July 2019]** I attend the [Google Research Talk](https://events.withgoogle.com/research-talk-ber-11july2019/) by [Sebastian Ruder](http://ruder.io/). The talk was about cross-lingual and continual transfer learning in NLP.  
