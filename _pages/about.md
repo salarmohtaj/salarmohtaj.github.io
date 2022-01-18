@@ -21,6 +21,7 @@ I received my Bachelor’s Degree in [Shahrood University of Technology](http://
 
 News
 ======
+- **[December 2021]** Our paper Hate Speech Identification is accepted by [Forum for Information Retrieval Evaluation](http://fire.irsi.res.in/fire/2021/home) (FIRE). The preprint version is accessible via [this link](https://arxiv.org/abs/2201.04227)
 - **[September 2021]** The online course on [Natural Language Processing](https://ki-campus.org/node/487) is officially published on the learning platform for artificial intelligence [KI-Campus](https://ki-campus.org/).
 - **[May 2021]** My [online course on Natural Language Processing](https://ki-campus.org/node/487) will be launched in summer on the learning platform for artificial intelligence [KI-Campus](https://ki-campus.org/).
 - **[September 2020]** Our paper titled [A crowdsourcing approach to construct mono-lingual plagiarism detection corpus](https://link.springer.com/article/10.1007/s00799-020-00294-4) is published on the [International Journal on Digital Libraries](https://www.springer.com/journal/799).
