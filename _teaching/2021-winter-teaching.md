@@ -10,7 +10,7 @@ location: "Berlin, Germany"
 
 
 
-### Summer 2021
+### Winter 2021-2022
 
 In this semester I proposed an advanced project on the topic of NLP tasks. In this course, students must develop NPL projects for different tasks. 
 
