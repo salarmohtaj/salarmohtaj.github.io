@@ -5,6 +5,6 @@ permalink: /publication/2019-01-01-Automated-Text-Readability-Assessment-for-Ger
 date: 2019-01-01
 venue: 'In the proceedings of 11th International Conference on Quality of Multimedia Experience QoMEX 2019, Berlin, Germany, June 5-7, 2019'
 paperurl: 'https://doi.org/10.1109/QoMEX.2019.8743194'
-citation: 'Babak Naderi, Salar Mohtaj, Karan Karan, Sebastian M{\&quot;{o}}ller, &quot;Automated Text Readability Assessment for German Language: A Quality of Experience Approach.&quot; In the proceedings of 11th International Conference on Quality of Multimedia Experience QoMEX 2019, Berlin, Germany, June 5-7, 2019, 2019.'
+citation: 'Babak Naderi, Salar Mohtaj, Karan Karan, Sebastian Möller, &quot;Automated Text Readability Assessment for German Language: A Quality of Experience Approach.&quot; In the proceedings of 11th International Conference on Quality of Multimedia Experience QoMEX 2019, Berlin, Germany, June 5-7, 2019, 2019.'
 ---
 [Access paper here](https://doi.org/10.1109/QoMEX.2019.8743194){:target="_blank"}
