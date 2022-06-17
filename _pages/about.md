@@ -21,6 +21,7 @@ I received my Bachelor’s Degree in [Shahrood University of Technology](http://
 
 News
 ======
+- **[April 2022]** We will organize a shared task on German text complexity assessment as a GermEval 2022 task. More information about the competition can be found [here](https://qulab.github.io/text_complexity_challlenge/).
 - **[March 2022]** I have two accepted papers in LREC 2022. The first one is "MuLVE, A Multi-Language Vocabulary Evaluation Data Set" and the second one is "PerPaDa: A Persian Paraphrase Dataset based on Implicit Crowdsourcing Data Collection". LREC 2022 will be from June 21st to 24th in Marseille, France.
 - **[December 2021]** Our paper Hate Speech Identification is accepted by [Forum for Information Retrieval Evaluation](http://fire.irsi.res.in/fire/2021/home) (FIRE). The preprint version is accessible via [this link](https://arxiv.org/abs/2201.04227)
 - **[September 2021]** The online course on [Natural Language Processing](https://ki-campus.org/node/487) is officially published on the learning platform for artificial intelligence [KI-Campus](https://ki-campus.org/).
