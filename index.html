@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salar Mohtaj — NLP Researcher</title>
+<meta name="description" content="Salar Mohtaj — Senior Researcher, Speech & Language Technology group, DFKI. NLP, LLM evaluation, fact-checking, hate speech detection.">
+<style>
+  :root{
+    --font-main: Calibri, Candara, Optima, 'Segoe UI', 'Noto Sans', 'Helvetica Neue', Arial, sans-serif;
+    --paper:#ffffff;
+    --paper-raised:#f4f4f4;
+    --ink:#15181a;
+    --ink-soft:#55595d;
+    --hairline:#e2e2e2;
+    --tag-role:#8a5a2b;
+    --tag-org:#35577a;
+    --tag-loc:#6b5b95;
+    --tag-topic:#2f6f4f;
+    --max:760px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--font-main);
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:#c9e4d5;}
+
+  a{color:inherit;}
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--tag-topic);
+    outline-offset:3px;
+  }
+
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  .eyebrow{
+    font-family:var(--font-main);
+    font-size:12.5px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- Header ---------- */
+  header.hero{
+    padding:76px 0 40px;
+    border-bottom:1px solid var(--hairline);
+  }
+  .name{
+    font-family:var(--font-main);
+    font-weight:700;
+    font-size:clamp(2.2rem, 5vw, 3.1rem);
+    line-height:1.05;
+    margin:14px 0 8px;
+    letter-spacing:-0.01em;
+  }
+  .role-line{
+    font-family:var(--font-main);
+    font-size:14.5px;
+    color:var(--ink-soft);
+    margin:0 0 22px;
+  }
+  .role-line .sep{color:var(--hairline);margin:0 8px;}
+
+  .link-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:6px;
+  }
+  .link-row a{
+    font-family:var(--font-main);
+    font-size:13px;
+    text-decoration:none;
+    padding:6px 11px;
+    border:1px solid var(--hairline);
+    border-radius:3px;
+    color:var(--ink);
+    transition:border-color .15s ease, background .15s ease;
+    white-space:nowrap;
+  }
+  .link-row a:hover{
+    border-color:var(--ink);
+    background:var(--paper-raised);
+  }
+
+  /* ---------- Sections ---------- */
+  section{
+    padding:52px 0;
+    border-bottom:1px solid var(--hairline);
+  }
+  section:last-of-type{border-bottom:none;}
+
+  .section-head{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    margin-bottom:26px;
+  }
+  h2{
+    font-family:var(--font-main);
+    font-weight:700;
+    font-size:1.5rem;
+    margin:0;
+  }
+
+  /* ---------- Annotated bio (signature element) ---------- */
+  .annotated{
+    font-family:var(--font-main);
+    font-size:1.18rem;
+    line-height:1.85;
+    font-weight:400;
+    max-width:66ch;
+  }
+  .tag{
+    position:relative;
+    padding:0.5px 5px 1px;
+    border-radius:3px;
+    font-style:normal;
+    white-space:nowrap;
+  }
+  .tag::after{
+    content:attr(data-label);
+    font-family:var(--font-main);
+    font-size:9px;
+    letter-spacing:.05em;
+    position:relative;
+    top:-6px;
+    margin-left:3px;
+    opacity:.75;
+  }
+  .tag.role{background:#f1e3d1; color:var(--tag-role);}
+  .tag.org{background:#dde6ee; color:var(--tag-org);}
+  .tag.loc{background:#e6e1ef; color:var(--tag-loc);}
+  .tag.topic{background:#dcece2; color:var(--tag-topic);}
+
+  .legend{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    margin-top:24px;
+    font-family:var(--font-main);
+    font-size:11.5px;
+    color:var(--ink-soft);
+  }
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+  .swatch{width:8px; height:8px; border-radius:2px; display:inline-block;}
+  .swatch.role{background:var(--tag-role);}
+  .swatch.org{background:var(--tag-org);}
+  .swatch.loc{background:var(--tag-loc);}
+  .swatch.topic{background:var(--tag-topic);}
+
+  .interests{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .interests span{
+    font-family:var(--font-main);
+    font-size:12px;
+    padding:5px 10px;
+    background:var(--paper-raised);
+    border-radius:3px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- Timeline (experience / education) ---------- */
+  .timeline{list-style:none; margin:0; padding:0;}
+  .timeline li{
+    display:grid;
+    grid-template-columns:110px 1fr;
+    gap:18px;
+    padding:16px 0;
+    border-top:1px solid var(--hairline);
+  }
+  .timeline li:first-child{border-top:none;}
+  .t-date{
+    font-family:var(--font-main);
+    font-size:12.5px;
+    color:var(--ink-soft);
+    padding-top:2px;
+  }
+  .t-role{font-weight:600; margin:0 0 3px;}
+  .t-org{color:var(--ink-soft); font-size:15px; margin:0;}
+
+  /* ---------- Publications ---------- */
+  .pub-list{list-style:none; margin:0; padding:0;}
+  .pub{
+    padding:20px 0;
+    border-top:1px solid var(--hairline);
+    display:grid;
+    grid-template-columns:52px 1fr;
+    gap:18px;
+  }
+  .pub:first-child{border-top:none;}
+  .pub-year{
+    font-family:var(--font-main);
+    font-size:13px;
+    color:var(--ink-soft);
+    padding-top:3px;
+  }
+  .pub-title{
+    margin:0 0 6px;
+    font-weight:600;
+    font-size:16px;
+    line-height:1.4;
+  }
+  .pub-title a{text-decoration:none; border-bottom:1px solid transparent; transition:border-color .15s ease;}
+  .pub-title a:hover{border-bottom-color:var(--ink);}
+  .pub-venue{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0;
+  }
+  .pub-venue .venue-tag{
+    font-family:var(--font-main);
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    padding:2px 6px;
+    border-radius:3px;
+    background:#dcece2;
+    color:var(--tag-topic);
+    margin-right:6px;
+  }
+
+  .scholar-note{
+    margin-top:26px;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+  .scholar-note a{text-decoration:underline; text-decoration-color:var(--hairline); text-underline-offset:3px;}
+
+  /* ---------- Teaching ---------- */
+  .plain-list{list-style:none; margin:0; padding:0;}
+  .plain-list li{
+    padding:12px 0;
+    border-top:1px solid var(--hairline);
+    font-size:15px;
+  }
+  .plain-list li:first-child{border-top:none;}
+
+  /* ---------- Projects ---------- */
+  .project-list{list-style:none; margin:0; padding:0;}
+  .project{
+    padding:22px 0;
+    border-top:1px solid var(--hairline);
+    display:grid;
+    grid-template-columns:1fr;
+    gap:6px;
+  }
+  .project:first-child{border-top:none;}
+  .project-head{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .project-title{
+    margin:0;
+    font-weight:700;
+    font-size:16.5px;
+  }
+  .project-title a{
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+    transition:border-color .15s ease;
+  }
+  .project-title a:hover{border-bottom-color:var(--ink);}
+  .project-tag{
+    font-size:11px;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    background:var(--paper-raised);
+    color:var(--tag-topic);
+    padding:2px 8px;
+    border-radius:3px;
+    white-space:nowrap;
+  }
+  .project-desc{
+    margin:2px 0 0;
+    font-size:14.5px;
+    color:var(--ink-soft);
+    max-width:64ch;
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    padding:44px 0 70px;
+  }
+  footer .name{font-size:1.4rem; margin-bottom:10px;}
+  footer p{color:var(--ink-soft); font-size:14.5px; max-width:50ch;}
+  .footer-links{margin-top:20px;}
+  .copyright{
+    margin-top:40px;
+    font-family:var(--font-main);
+    font-size:11.5px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  .reveal{
+    opacity:0;
+    transform:translateY(10px);
+    transition:opacity .6s ease, transform .6s ease;
+  }
+  .reveal.in{opacity:1; transform:translateY(0);}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1; transform:none; transition:none;}
+  }
+
+  @media (max-width:560px){
+    .timeline li, .pub{grid-template-columns:1fr;}
+    .t-date, .pub-year{padding-top:0;}
+    header.hero{padding-top:52px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Researcher · Speech &amp; Language Technology</p>
+    <h1 class="name">Salar Mohtaj</h1>
+    <p class="role-line">Senior Researcher, DFKI<span class="sep">/</span>PhD, TU Berlin<span class="sep">/</span>Berlin, Germany</p>
+    <nav class="link-row">
+      <a href="https://scholar.google.com/citations?user=lnrUBN0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://github.com/salarmohtaj" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/salar-mohtaj/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Salar-Mohtaj-2" target="_blank" rel="noopener">ResearchGate</a>
+      <a href="https://www.tu.berlin/en/qu/ueber-uns/team-personen/senior-researchers/dr-salar-mohtaj" target="_blank" rel="noopener">TU Berlin</a>
+      <a href="mailto:salar.mohtaj@dfki.de">Email</a>
+    </nav>
+  </header>
+
+  <section class="reveal" id="about">
+    <div class="section-head"><h2>About</h2></div>
+    <p class="annotated">
+      Salar is a <span class="tag role" data-label="ROLE">Senior Researcher</span> at
+      <span class="tag org" data-label="ORG">DFKI</span>'s Speech &amp; Language Technology group in
+      <span class="tag loc" data-label="LOC">Berlin</span>, where his work centers on evaluating
+      <span class="tag topic" data-label="TOPIC">large language models</span> for quality and factual
+      accuracy. He earned his PhD in Computer Science at
+      <span class="tag org" data-label="ORG">TU Berlin</span>, advised by Prof. Sebastian Möller,
+      and has spent eight-plus years working across
+      <span class="tag topic" data-label="TOPIC">fake news detection</span>,
+      <span class="tag topic" data-label="TOPIC">hate speech detection</span>,
+      <span class="tag topic" data-label="TOPIC">plagiarism detection</span> and
+      <span class="tag topic" data-label="TOPIC">argument mining</span>.
+    </p>
+    <div class="legend">
+      <span><i class="swatch role"></i>role</span>
+      <span><i class="swatch org"></i>organization</span>
+      <span><i class="swatch loc"></i>location</span>
+      <span><i class="swatch topic"></i>research topic</span>
+    </div>
+    <div class="interests">
+      <span>NLP</span><span>LLM Evaluation</span><span>Fact-Checking</span>
+      <span>Information Retrieval</span><span>Text Complexity</span><span>Argument Mining</span>
+    </div>
+  </section>
+
+  <section class="reveal" id="experience">
+    <div class="section-head"><h2>Experience</h2></div>
+    <ul class="timeline">
+      <li>
+        <span class="t-date">2019 — Present</span>
+        <div><p class="t-role">Senior Researcher</p><p class="t-org">DFKI, Speech &amp; Language Technology group · Berlin</p></div>
+      </li>
+      <li>
+        <span class="t-date">Early 2024</span>
+        <div><p class="t-role">Visiting Researcher</p><p class="t-org">Universitat Politècnica de València</p></div>
+      </li>
+      <li>
+        <span class="t-date">Mar – Dec 2019</span>
+        <div><p class="t-role">Research Assistant</p><p class="t-org">Technische Universität Berlin, Quality &amp; Usability Lab</p></div>
+      </li>
+      <li>
+        <span class="t-date">2016 — 2018</span>
+        <div><p class="t-role">NLP Specialist</p><p class="t-org">ICT Research Center, ACECR</p></div>
+      </li>
+      <li>
+        <span class="t-date">2016 — 2018</span>
+        <div><p class="t-role">Guest Lecturer, Data Mining</p><p class="t-org">University of Science and Culture</p></div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="reveal" id="education">
+    <div class="section-head"><h2>Education</h2></div>
+    <ul class="timeline">
+      <li>
+        <span class="t-date">2019 — 2023</span>
+        <div><p class="t-role">PhD, Computer Science</p><p class="t-org">Technische Universität Berlin · advised by Prof. Sebastian Möller</p></div>
+      </li>
+      <li>
+        <span class="t-date"></span>
+        <div><p class="t-role">MSc, Information Technology Engineering</p><p class="t-org">Amirkabir University of Technology</p></div>
+      </li>
+      <li>
+        <span class="t-date"></span>
+        <div><p class="t-role">BSc</p><p class="t-org">Shahrood University of Technology</p></div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="reveal" id="publications">
+    <div class="section-head"><h2>Selected Publications</h2></div>
+    <ul class="pub-list">
+      <li class="pub">
+        <span class="pub-year">2024</span>
+        <div>
+          <p class="pub-title">From Construction to Application: Advancing Argument Mining with the Large-Scale KIALOPRIME Dataset</p>
+          <p class="pub-venue"><span class="venue-tag">COMMA 2024</span>Sahitaj, Ruiz-Dolz, Sahitaj, Nizamoglu, Schmitt, Mohtaj, Möller</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2024</span>
+        <div>
+          <p class="pub-title">Augmented Political Leaning Detection: Leveraging Parliamentary Speeches for Classifying News Articles</p>
+          <p class="pub-venue"><span class="venue-tag">CPSS @ KONVENS</span>Jakob, Wenzel, Mohtaj, Schmitt</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2022</span>
+        <div>
+          <p class="pub-title">On the Importance of Word Embedding in Automated Harmful Information Detection</p>
+          <p class="pub-venue"><span class="venue-tag">TSD 2022</span>Mohtaj, Möller · Springer LNCS</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2022</span>
+        <div>
+          <p class="pub-title">Overview of the GermEval 2022 Shared Task on Text Complexity Assessment of German Text</p>
+          <p class="pub-venue"><span class="venue-tag">GermEval @ KONVENS</span>Mohtaj, Naderi, Möller</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2022</span>
+        <div>
+          <p class="pub-title">The Impact of Pre-processing on the Performance of Automated Fake News Detection</p>
+          <p class="pub-venue"><span class="venue-tag">CLEF 2022</span>Mohtaj, Möller</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2019</span>
+        <div>
+          <p class="pub-title">Using External Knowledge Bases and Coreference Resolution for Detecting Check-Worthy Statements</p>
+          <p class="pub-venue"><span class="venue-tag">CLEF 2019</span>Mohtaj, Himmelsbach, Woloszyn, Möller</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2019</span>
+        <div>
+          <p class="pub-title">Automated Text Readability Assessment for German Language: A Quality of Experience Approach</p>
+          <p class="pub-venue"><span class="venue-tag">QoMEX 2019</span>Naderi, Mohtaj, Karan, Möller</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2018</span>
+        <div>
+          <p class="pub-title">Parsivar: A Language Processing Toolkit for Persian</p>
+          <p class="pub-venue"><span class="venue-tag">LREC 2018</span>Mohtaj, Roshanfekr, Zafarian, Asghari</p>
+        </div>
+      </li>
+      <li class="pub">
+        <span class="pub-year">2016</span>
+        <div>
+          <p class="pub-title">Algorithms and Corpora for Persian Plagiarism Detection: Overview of PAN at FIRE 2016</p>
+          <p class="pub-venue"><span class="venue-tag">FIRE 2016</span>Asghari, Mohtaj, Fatemi, Faili, Rosso, Potthast</p>
+        </div>
+      </li>
+    </ul>
+    <p class="scholar-note">Cited by 200+ · full list on <a href="https://scholar.google.com/citations?user=lnrUBN0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
+  </section>
+
+  <section class="reveal" id="teaching">
+    <div class="section-head"><h2>Teaching</h2></div>
+    <ul class="plain-list">
+      <li>Natural Language Processing — lecture, TU Berlin (summer semesters)</li>
+      <li>NLP Seminar — TU Berlin</li>
+      <li>Advanced Study Projects — various NLP topics, TU Berlin</li>
+      <li>Natural Language Processing — online course, <a href="https://ki-campus.org/node/487" target="_blank" rel="noopener">KI-Campus</a></li>
+    </ul>
+  </section>
+
+  <section class="reveal" id="projects">
+    <div class="section-head"><h2>Selected Projects</h2></div>
+    <ul class="project-list">
+      <li class="project">
+        <div class="project-head">
+          <p class="project-title"><a href="https://github.com/salarmohtaj/HASOC_2021" target="_blank" rel="noopener">HASOC — Hate Speech &amp; Offensive Content Detection</a></p>
+          <span class="project-tag">GitHub</span>
+        </div>
+        <p class="project-desc">Feature-extraction and character-based LSTM models built for the HASOC 2020/2021 shared tasks, identifying hate speech and offensive content across English, German, and Hindi social media text.</p>
+      </li>
+      <li class="project">
+        <div class="project-head">
+          <p class="project-title"><a href="https://github.com/salarmohtaj/PerPaDa" target="_blank" rel="noopener">PerPaDa — Persian Paraphrase Dataset</a></p>
+          <span class="project-tag">GitHub</span>
+        </div>
+        <p class="project-desc">A 2,446-instance Persian paraphrase corpus collected via implicit crowdsourcing from a plagiarism-detection system's user submissions, published at LREC 2022.</p>
+      </li>
+      <li class="project">
+        <div class="project-head">
+          <p class="project-title"><a href="https://github.com/salarmohtaj/SemEval2022_Task8" target="_blank" rel="noopener">SemEval 2022 Task 8 — Multilingual News Similarity</a></p>
+          <span class="project-tag">GitHub</span>
+        </div>
+        <p class="project-desc">A shared-task submission scoring how similar pairs of news articles are across 18 language combinations — cross-lingual groundwork for later fact- and news-evaluation work.</p>
+      </li>
+      <li class="project">
+        <div class="project-head">
+          <p class="project-title"><a href="https://github.com/TUB-NLP-OpenData/intelligent_crawler" target="_blank" rel="noopener">Intelligent Crawler — Open NLP Data Collection</a></p>
+          <span class="project-tag">GitHub</span>
+        </div>
+        <p class="project-desc">A configurable web crawler built with the TU Berlin NLP group to collect open text corpora for downstream NLP research and dataset construction.</p>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="reveal">
+    <h2 class="name">Get in touch</h2>
+    <p>Open to discussing collaborations on NLP, LLM evaluation, and misinformation research, and happy to hear from prospective Bachelor's/Master's thesis students.</p>
+    <nav class="link-row footer-links">
+      <a href="mailto:salar.mohtaj@dfki.de">Email</a>
+      <a href="https://github.com/salarmohtaj" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/salar-mohtaj/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=lnrUBN0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    </nav>
+    <p class="copyright">© <span id="year"></span> Salar Mohtaj</p>
+  </footer>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('in'));
+  }
+</script>
+
+</body>
+</html>
